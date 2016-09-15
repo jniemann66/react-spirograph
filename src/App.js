@@ -140,36 +140,36 @@ _onChangeAnimate(evt){
                 <td>
                   <p className="parameterLabel">
 
-                  outer wheel size: <input type="number" min={this.state.minWheelSize} max={this.state.maxWheelSize} value={this.state.outerWheel0} onChange={this._onChangeOuterWheel0.bind(this)} />
+                  Outer wheel size: <input type="number" min={this.state.minWheelSize} max={this.state.maxWheelSize} value={this.state.outerWheel0} onChange={this._onChangeOuterWheel0.bind(this)} />
                   </p>
                   <p className="parameterLabel">
-                  inner wheel size: <input type="number" min={this.state.minWheelSize} max={this.state.maxWheelSize} value={this.state.innerWheel0} onChange={this._onChangeInnerWheel0.bind(this)} />
+                  Inner wheel size: <input type="number" min={this.state.minWheelSize} max={this.state.maxWheelSize} value={this.state.innerWheel0} onChange={this._onChangeInnerWheel0.bind(this)} />
                   </p>
                   <p className="parameterLabel">
-                  inner wheel pen position: <input type="number" min={this.state.minPenPosition} max={this.state.maxPenPosition} step="0.01" value={this.state.penPosition0} onChange={this._onChangePenPosition0.bind(this)} />
+                  Inner wheel pen position: <input type="number" min={this.state.minPenPosition} max={this.state.maxPenPosition} step="0.01" value={this.state.penPosition0} onChange={this._onChangePenPosition0.bind(this)} />
                   </p>
                   <p className="parameterLabel">
-                  drawing radius: <input type="number" min={this.state.minRadius} max={this.state.maxRadius} value={this.state.radius0} onChange={this._onChangeRadius0.bind(this)} />
+                  Drawing radius: <input type="number" min={this.state.minRadius} max={this.state.maxRadius} value={this.state.radius0} onChange={this._onChangeRadius0.bind(this)} />
                   </p>
                   <p className="parameterLabel">
-                  color: <input type="color" value={this.state.color0} onChange={this._onChangeColor0.bind(this)}/> 
+                  Color: <input type="color" value={this.state.color0} onChange={this._onChangeColor0.bind(this)}/> 
                   </p>
                 </td>
                 <td>
                   <p className="parameterLabel">
-                  outer wheel size: <input type="number" min={this.state.minWheelSize} max={this.state.maxWheelSize} value={this.state.outerWheel1} onChange={this._onChangeOuterWheel1.bind(this)} />
+                  Outer wheel size: <input type="number" min={this.state.minWheelSize} max={this.state.maxWheelSize} value={this.state.outerWheel1} onChange={this._onChangeOuterWheel1.bind(this)} />
                   </p>
                   <p className="parameterLabel">
-                  inner wheel size: <input type="number" min={this.state.minWheelSize} max={this.state.maxWheelSize} value={this.state.innerWheel1} onChange={this._onChangeInnerWheel1.bind(this)} />
+                  Inner wheel size: <input type="number" min={this.state.minWheelSize} max={this.state.maxWheelSize} value={this.state.innerWheel1} onChange={this._onChangeInnerWheel1.bind(this)} />
                   </p>
                   <p className="parameterLabel">
-                  inner wheel pen position: <input type="number" min={this.state.minPenPosition} max={this.state.maxPenPosition} step="0.01" value={this.state.penPosition1} onChange={this._onChangePenPosition1.bind(this)} />
+                  Inner wheel pen position: <input type="number" min={this.state.minPenPosition} max={this.state.maxPenPosition} step="0.01" value={this.state.penPosition1} onChange={this._onChangePenPosition1.bind(this)} />
                   </p>
                   <p className="parameterLabel">
-                  drawing radius: <input type="number" min={this.state.minRadius} max={this.state.maxRadius} value={this.state.radius1} onChange={this._onChangeRadius1.bind(this)} />
+                  Drawing radius: <input type="number" min={this.state.minRadius} max={this.state.maxRadius} value={this.state.radius1} onChange={this._onChangeRadius1.bind(this)} />
                   </p>
                   <p className="parameterLabel">
-                  color: <input type="color" value={this.state.color1} onChange={this._onChangeColor1.bind(this)}/> 
+                  Color: <input type="color" value={this.state.color1} onChange={this._onChangeColor1.bind(this)}/> 
                   </p>
                 </td>
                 <td>

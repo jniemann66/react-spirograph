@@ -6,7 +6,7 @@ I looked into the mathematics behind spirograph curves, and attempted to write s
 
 A live version is available here: [http://spirograph.juddn.com/](http://spirograph.juddn.com/ "http://spirograph.juddn.com/")
 
-You can pretty much type in any parameters and you will get some sort of result, but obviously, some are better than others. 
+You type in pretty much any parameters and you will get some sort of result, but obviously, some are better than others. 
 It usually works best when one of the wheels (inner or outer) remains fixed, and the other changing. 
 Setting the outer wheel to a prime number (eg 97) also gives relatively stable results.
 
